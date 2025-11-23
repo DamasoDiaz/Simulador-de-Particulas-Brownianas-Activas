@@ -2,6 +2,8 @@
 
 **Por: Dámaso Díaz**
 
+![Demo2](https://github.com/user-attachments/assets/9d180e44-643f-405e-b438-de4da6180074)
+
 Este proyecto implementa un simulador en C++ para modelar la dinámica de **partículas autopropulsadas** (materia activa) en un espacio 2D. El sistema combina movimiento Browniano, autopropulsión constante, interacciones de volumen excluido y alineamiento social.
 
 El simulador implementa **condiciones de borde periódicas** y utiliza un algoritmo de **Cell Lists (Listas de Celdas)** para optimizar la detección de colisiones, reduciendo la complejidad computacional.
