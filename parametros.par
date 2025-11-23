@@ -1,0 +1,22 @@
+#######################################################
+#   SIMULADOR DE PARTICULAS BROWNIANAS ACTIVAS (ABP)  #
+#   Archivo de Configuracion                          #
+#######################################################
+
+# --- 1. Configuracion del Sistema ---
+particulas      500      # Numero total de particulas (N)
+frames          2000     # Duracion de la simulacion
+dt              0.001    # Paso de tiempo (Delta t)
+limite_borde    10.0     # Tamano de media caja (Largo total = L * 2)
+
+# --- 2. Termodinamica (Ruido) ---
+sigma_v         1.0      # Ruido traslacional (Difusion)
+sigma_theta     0.5      # Ruido rotacional
+
+# --- 3. Propulsion Activa ---
+Vo              5.0      # Velocidad de autopropulsion (0 = pasivo)
+
+# --- 4. Interacciones Fisicas ---
+k_elastica      1.0      # Dureza de las particulas (Soft-sphere)
+gamma           2.0      # Fuerza de alineamiento social (w)
+m               1.0      # Modo de alineamiento (1=Polar, 2=Nematico)
